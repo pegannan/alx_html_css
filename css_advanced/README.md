@@ -1,0 +1,1 @@
+These files serve as an introductory project to CSS.

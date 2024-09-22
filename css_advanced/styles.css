@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'source sans pro';
+    src: url(SourceSansPro-Regular.otf);font-weight: normal};
+
+@font-face {
+    font-family: 'source sans pro';
+    src: url(SourceSansPro-Bold.otf);font-weight: bold;
+}
+@font-face {
+    font-family: 'source sans pro';
+    src: url(SourceSansPro-Black.otf);font-weight: bolder;
+}
+@font-face {
+    font-family: 'source sans pro';
+    src: url(SourceSansPro-Semibold.otf);font-weight: 800;
+}
+@font-face {
+    font-family: 'source sans pro';
+    src: url(SourceSansPro-Light.otf);font-weight: lighter;
+}
+   
+
+body {background-color: beige; 
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    margin: 0px;
+    font-family: 'source sans pro';}
+.hero {background-image: url(Object.png);
+    background-position: center;background-size: cover;
+    background-attachment: scroll;
+    color: white;
+    text-align: center;
+    padding: 45px;padding-top: 15px;
+    color: white;}
+.header{display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around;}
+.logo{flex: 1; 
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 30px;}
+.navigation{flex-direction: row; 
+    flex: 1;font-family: 'source sans pro';
+    min-width: 400px;}
+    li{color: white;font-weight: bold;
+        text-decoration: none;}
+ul{display: inline;
+    align-items: end;
+    justify-content: space-between;
+    min-width: 200px;}
+    ul a{color: white;font-weight: bold;text-decoration: none;}
+h1{font-size: 90px;font-weight:bold;
+    
+    margin-bottom: 20px;}
+button{background-color: rgb(194, 113, 225);
+    color: white;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    width: 140px;
+    height: 35px;
+    padding: 8px;
+    box-shadow: inset;
+    font-size:10px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: block;border-color: transparent;
+box-shadow: 3px 3px 20px rgb(63, 62, 62);}
+.exempt{background-color: rgb(194, 113, 225);
+    color: white;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    width: 140px;
+    height: 35px;
+    padding: 8px;
+    box-shadow: inset;
+    font-size:10px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: block;border-color: transparent;
+box-shadow: 3px 3px 20px rgb(63, 62, 62);}
+    h2{margin-top: 60px;
+        text-align: center;
+        font-size: x-large;}
+    .awards{display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    align-items: center;
+    padding: 60px;
+padding-top: 45px;}
+    .testimonial{height: 210px;
+        display: flex;flex-direction:row; 
+        padding-left: 220px;
+        padding-right: 220px;
+        min-width: 400px;
+        background-color: rgb(194, 113, 225);
+        color: white;
+        height: 250px;
+        align-items: center;justify-content: center;}
+    .popular{display: flex;flex-direction: row;
+        padding-left: 60px;
+        padding-right: 60px;
+        align-items: center;}
+    .popular-videos{display: grid;grid-template-rows: auto;
+        height: 300px;width: 140px;
+        padding: 60px;}
+    .footer{background-color:rgb(7 22 41);
+        color: rgb(222, 219, 219);height: 180px;align-items: center;vertical-align: middle;}
+    .question{padding-right: 140px;padding-left: 140px;
+         align-items: center;justify-content: center;}
+    .faq{display: flex;flex-direction: row;margin-top: 20px;min-width: 800px}
+    .membership{display: flex;flex-direction: row;
+        text-align: center;
+        padding-left: 100px;padding-right: 100px; 
+        background-color: rgb(7 22 41);
+        color: white;height: 285px;min-width: 150px;}
