@@ -1,22 +1,22 @@
 @font-face {
     font-family: 'source sans pro';
-    src: url(SourceSansPro-Regular.otf);font-weight: normal};
+    src: url(font/SourceSansPro-Regular.otf);font-weight: normal};
 
 @font-face {
     font-family: 'source sans pro';
-    src: url(SourceSansPro-Bold.otf);font-weight: bold;
+    src: url(font/SourceSansPro-Bold.otf);font-weight: bold;
 }
 @font-face {
     font-family: 'source sans pro';
-    src: url(SourceSansPro-Black.otf);font-weight: bolder;
+    src: url(font/SourceSansPro-Black.otf);font-weight: bolder;
 }
 @font-face {
     font-family: 'source sans pro';
-    src: url(SourceSansPro-Semibold.otf);font-weight: 800;
+    src: url(font/SourceSansPro-Semibold.otf);font-weight: 800;
 }
 @font-face {
     font-family: 'source sans pro';
-    src: url(SourceSansPro-Light.otf);font-weight: lighter;
+    src: url(font/SourceSansPro-Light.otf);font-weight: lighter;
 }
    
 
@@ -26,7 +26,7 @@ body {background-color: white;
     overflow-y: auto;
     margin: 0px;
     font-family: 'source sans pro';}
-.hero {background-image: url(Object.png);
+.hero {background-image: url(media/Object.png);
     background-position: center;background-size: cover;
     background-attachment: scroll;
     color: white;
