@@ -58,6 +58,7 @@ button{background-color: rgb(194, 113, 225);
     color: white;
     font-size: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
     border-radius: 30px;
     width: 140px;
     height: 35px;
@@ -72,6 +73,7 @@ button{background-color: rgb(194, 113, 225);
 box-shadow: 3px 3px 20px rgb(63, 62, 62);}
 .exempt{background-color: rgb(194, 113, 225);
     color: white;
+    font-weight:bold;
     font-size: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 30px;
@@ -115,7 +117,7 @@ padding-top: 45px;}
         padding: 60px;}
     .footer{background-color:rgb(7 22 41);
         color: rgb(222, 219, 219);height: 180px;align-items: center;vertical-align: middle;}
-    .question{padding-right: 140px;padding-left: 140px;
+    .question{padding-right: 150px;padding-left: 150px;
          align-items: center;justify-content: center;}
     .faq{display: flex;flex-direction: row;margin-top: 20px;min-width: 800px}
     .membership{display: flex;flex-direction: row;
