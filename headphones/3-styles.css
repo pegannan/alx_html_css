@@ -281,12 +281,6 @@ h2{
     margin-top: 36px;
 }
 
-footer{
-    background-color: rgb(7,22,41);
-    color: white;
-    height:150px;
-    font-family: 'sourve sans pro';
-}
 
 @media (max-width:768px) {
     .menu ul li{
@@ -356,31 +350,22 @@ footer{
     position: relative;
 }
 
-    .navbar-footer{
-        padding:0 35px;
-    }
+.navbar{
+    padding:0 50px;
+    padding-top:25px;
+} 
 
-    footer{
-        padding-top:50px;
-        
-    }
+.navbar .menu{
+    margin-left:20px;
+}
 
-    .navbar{
-        padding:0 50px;
-        padding-top:25px;
-    } 
+.navbar li{
+    min-width:100px;
+} 
 
-    .navbar .menu{
-        margin-left:20px;
-    }
-
-    .navbar li{
-        min-width:100px;
-    } 
-
-    .mobile-menu-new{
-        display:none;
-    }
+.mobile-menu-new{
+    display:none;
+}
 
 }
 
@@ -565,23 +550,4 @@ footer{
         padding: 30px;
         position: relative;
     }
-
-    footer .navbar-footer .container{
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-        align-items:center;
-        vertical-align:middle;
-        padding: 0 15px;
-        margin: 0 auto;
-    }
-
-    .navbar-footer .container .logo{
-        margin-bottom:40px
-    }
-
-    .navbar-footer .container .social-icons{
-        margin-bottom:40px
-    }
-
 }
